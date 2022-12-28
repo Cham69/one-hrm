@@ -4,12 +4,18 @@
   "description": "Human Resource Management application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
   },
   "author": "Chamaka Jayashan",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "router": "^1.3.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
